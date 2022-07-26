@@ -1,0 +1,59 @@
+body{
+    background-color: #fbd139;
+}
+
+#score{
+    font-size: 30px;
+    margin-left: 30px;
+    float: left;
+    font-variant: small-caps;
+    font-weight: bold;
+}
+
+#timer{
+    font-size: 30px;
+    float:right;
+    margin-right: 30px;
+    font-variant: small-caps;
+    font-weight: bold;
+
+}
+
+#sketch_to_be_drawn{
+    color: red;
+
+}
+
+h1{
+    color:rgb(0, 4, 255);
+    background-color: cornsilk;
+    font-variant: small-caps;
+    font-weight: bold;
+}
+
+p{
+    font-size: 30px;
+    font-weight: bold;
+    font-variant: small-caps;
+}
+
+canvas 
+  {
+    border:5px solid white;
+    border-radius:20px;
+    margin-top:150px;
+    box-shadow:5px 5px 5px grey;
+    box-shadow: 1px 1px 38px #ffffff;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes example {
+
+  from {box-shadow: 1px 1px 38px grey;}
+  to {box-shadow: 1px 1px 38px white;}
+
+}
+
+
+
